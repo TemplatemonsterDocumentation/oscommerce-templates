@@ -11,6 +11,12 @@
 <script src="js/jquery.scrollTo.js"></script>
 <script src="js/jquery-migrate-1.1.0.js"></script>
 <script src="js/bootstrap-affix.js"></script>
+<script src="js/html5shiv.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.prettyfy.js"></script>
 <script src="js/script.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
 
@@ -476,11 +482,6 @@
                 <p>You can navigate to <strong>Configuration -> My Store -> Live Chat Olark</strong> to enable/disable it.</p>
                 <p>By default, it has sample data details. To get your data, you can register on <a href="https://www.olark.com/" target="_blank">Olark website</a> and do all the required steps to get your code.</p>
                 <p>Then, open <strong>includes/template_bottom.php</strong> file and insert the received code between the lines begin olark code and end olark code and save the file.</p>
-                <div class="box-notification">
-                  <span>Customers who purchased the template are provided with 6 months Olark chat usage for free. To register 6 months Free bronze package you should follow <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Olark registration link</a>
-                  </span>
-                </div>
-
               </article>
               <article>
                 <h4 id="boxes">Modules -> Boxes</h4>
@@ -527,16 +528,24 @@
               <p>Some countries have issues connecting to Google servers. This can cause issues loading Google Fonts and Java Script libraries from Google CDN. To resolve these issues please do the following: </p>
               <strong>Can't load Google Fonts: </strong>
               <ol>
-                <li>Open \includes\template_top.php file</li>
+                <li>Open \templates\theme****\index.php file</li>
                 <li>Locate the line: <br>
-                  <pre>href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'</pre>
+                  <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre>
                 </li>
                 <li>Replace it with the following: <br>
-                  <pre>href='//fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'</pre>
+                  <pre>$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');</pre>
                 </li>
               </ol>
-              <h2>W3C validation</h2>
-                 <p>Both HTML markup and CSS styles used in our templates are semantically correct and valid. However some W3C errors still can take place. Making code 100% W3C valid eliminates the usage of modern website technologies as CSS3 features and HTML5 markup. Our goal is to deliver rich user experience with high quality templates and sometimes we have to break some rules.</p>
+              <strong>Can't load jQuery</strong>
+              <ol>
+                <li>Locate the line:
+                  <pre>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre>
+                </li>
+                <li>Replace with the following:<br>
+                  <pre>&lt;script src="//code.jquery.com/jquery-[---your_jquery_version---].min.js">&lt;/script></pre>
+                </li>
+              </ol>
+              <p>You can also use local copy of jQuery library. </p>
             </section>
           </div>
         </div>
