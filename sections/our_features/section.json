@@ -1,0 +1,56 @@
+{
+  "id": "our_features",
+  "translations": {
+    "en": "Template Features"
+  },
+  "articles": [
+    {
+      "id": "featured_products",
+      "translations": {
+        "en": "Featured Products"
+      }
+    },
+    {
+      "id": "related_product",
+      "translations": {
+        "en": "Related Products"
+      }
+    },
+    {
+      "id": "tags_product",
+      "translations": {
+        "en": "Tags"
+      }
+    },
+    {
+      "id": "nivo_slider",
+      "translations": {
+        "en": "Nivo Slider"
+      }
+    },
+    {
+      "id": "banners_blocks",
+      "translations": {
+        "en": "Banner Box & Content Banner Box"
+      }
+    },
+    {
+      "id": "seo_url",
+      "translations": {
+        "en": "SEO Url"
+      }
+    },
+    {
+      "id": "live_chat",
+      "translations": {
+        "en": "Live Chat Olark"
+      }
+    },
+    {
+      "id": "boxes",
+      "translations": {
+        "en": "Modules > Boxes"
+      }
+    }
+  ]
+}

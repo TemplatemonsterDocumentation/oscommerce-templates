@@ -1,0 +1,34 @@
+{
+	"id":"template_instalation",
+	"translations":
+	{
+		"en":"Template Installation"
+	},
+	"articles":
+	[
+	  {
+		"id": "technical_requirements",
+		"translations": {
+		  "en": "Technical Requirements"
+		}
+	  },
+	  {
+		"id": "installation_steps",
+		"translations": {
+		  "en": "Pre-Installation Steps"
+		}
+	  },
+	  {
+		"id": "installation_procedure",
+		"translations": {
+		  "en": "Installation Procedure"
+		}
+	  },
+	  {
+		"id": "post-installation_steps",
+		"translations": {
+		  "en": "Post-Installation Steps"
+		}
+	  }
+	]
+}
