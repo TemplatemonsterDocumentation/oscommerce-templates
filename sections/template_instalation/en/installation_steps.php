@@ -75,7 +75,7 @@
 <h4>Database</h4>
 <p>A MySQL database on the web server or database server is required for the installation procedure to successfully
     import the database table structure and required data settings.</p>
-<p>Feel free to check out the following tutorials on <a href="/help/how-create-database.html" target="_blank">creating a
+<p>Feel free to check out the following tutorials on <a href="/help/how-create-a-database.html" target="_blank">creating a
         database using cPanel</a> and <a href="/help/how-to-create-mysql-database-with-godaddy.html" target="_blank">creating
         a database with GoDaddy.</a></p>
 <h4>Web Server and Database Server Details</h4>
