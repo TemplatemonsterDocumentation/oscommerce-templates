@@ -18,3 +18,8 @@ $section_param = 'template_instalation';
 if (isset($_GET['section'])) {
 	$section_param = $_GET['section'];
 }
+
+
+
+
+// Variables
